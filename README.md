@@ -1,1 +1,32 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/5a0AhCIR)
+# Week 14 RevoU Assignment
+***
+<img align='center' width='900' src='https://github.com/hlmyrsyd/thereadmestuff/blob/main/100%25.svg' />
+
+## Hello!
+This is unit testing project for the react app from previos project in week 13.
+
+## DEPENDENCIES
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- Typescript
+- AntDesign
+- Formik
+- Yup
+
+## UNIT TESTING TOOLS
+- jest
+- babel
+- testing-library
+- jsdom
+- react-test-renderer
+
+## UNIT TESTING RESULT
+1. Components:
+    - Register Form
+        
+
+    - Login Form
+
+
+## DEPLOYMENT
+
+[Deployed Link from previous project](https:///crud-app-hlmyrsyd.netlify.app/)
