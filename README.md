@@ -22,10 +22,10 @@ This is unit testing project for the react app from previos project in week 13.
 ## UNIT TESTING RESULT
 1. Components:
     - Register Form
-        
+        <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\RegisterFormTest.png' />
 
     - Login Form
-
+        <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\LoginFormTest.png' />
 
 ## DEPLOYMENT
 
