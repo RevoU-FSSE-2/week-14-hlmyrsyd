@@ -27,6 +27,12 @@ This is unit testing project for the react app from previos project in week 13.
     - Login Form
         <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\LoginFormTest.png' />
 
+    - Category Form
+        <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\CategoryFormTest.png' />
+    
+    - Run All Components
+        <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\ComponentsTest.png' />
+
 ## DEPLOYMENT
 
 [Deployed Link from previous project](https:///crud-app-hlmyrsyd.netlify.app/)

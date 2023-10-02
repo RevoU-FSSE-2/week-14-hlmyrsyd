@@ -1,5 +1,5 @@
-export { default as SignIn } from './SignIn';
-export { default as SignUp } from './SignUp';
-export { default as MainMenu } from './MainMenu';
 export { default as Login } from './Login';
 export { default as Register } from './Register';
+export { default as CategoryList } from './CategoryList';
+export { default as CategoryEdit } from './CategoryEdit';
+export { default as CategoryNew } from './CategoryNew';

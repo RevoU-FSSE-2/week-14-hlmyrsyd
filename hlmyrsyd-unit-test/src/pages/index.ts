@@ -1,4 +1,5 @@
-export { default as Home } from './Home';
-export { default as SignUp } from './SignUp';
 export { default as Login } from './Login';
 export { default as Register } from './Register';
+export { default as CategoryList } from './CategoryList';
+export { default as CategoryNew } from './CategoryNew';
+export { default as CategoryEdit} from './CategoryEdit';

@@ -3,6 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import {
   Login,
   Register,
+  CategoryList,
+  CategoryEdit,
+  CategoryNew,
 } from './pages';
 
 function App() {
@@ -15,6 +18,21 @@ function App() {
     {
       path: "/register",
       element: <Register />
+    },
+
+    {
+      path: "/category",
+      element: <CategoryList />
+    },
+
+    {
+      path: "/category/new",
+      element: <CategoryNew />
+    },
+
+    {
+      path: "/category/edit/:id",
+      element: <CategoryEdit />
     },
   ]);
 
