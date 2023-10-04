@@ -15,12 +15,12 @@ jest.mock("react-router-dom", () => ({
     }));
 
     global.fetch = jest.fn().mockResolvedValue({
-    json: () => Promise.resolve({ id: "10", name: "Apple", is_active: true }),
+    json: () => Promise.resolve({ id: "01", name: "Hilmy", is_active: true }),
     });
 
     describe("Testing category edit container", () => {
     test("Render category edit render and updates category", async () => {
-        const id = "10";
+        const id = "01";
         (useParams as jest.Mock).mockReturnValue({ id: id });
 
         const navigateMock = jest.fn();
@@ -34,6 +34,6 @@ jest.mock("react-router-dom", () => ({
         </MemoryRouter>
         );
 
-        await waitFor(() => screen.getByDisplayValue("Apple"));
+        await waitFor(() => screen.getByDisplayValue("Hilmy"));
     });
 });

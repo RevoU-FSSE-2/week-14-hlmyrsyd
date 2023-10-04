@@ -33,6 +33,14 @@ This is unit testing project for the react app from previos project in week 13.
     - Run All Components
         <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\ComponentsTest.png' />
 
+2. Containers:
+    - Register 
+        <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\ContainerRegisterTest.png' />
+    - Login
+        <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\ContainerLoginTest.png' />
+    - CategoryEdit 
+        <img align='center' width='900' src='hlmyrsyd-unit-test\src\assets\ContainerCategoryEditTest.png' />
+
 ## DEPLOYMENT
 
 [Deployed Link from previous project](https:///crud-app-hlmyrsyd.netlify.app/)
