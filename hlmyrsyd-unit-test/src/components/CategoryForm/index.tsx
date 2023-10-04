@@ -85,7 +85,7 @@ const CategoryForm = ({ onSubmit, category }: Props) => {
             </Button>
         </form>
         </>
-  );
+    );
 };
 
 export default CategoryForm;

@@ -44,7 +44,6 @@ const CategoryEdit = () => {
             body: JSON.stringify({ ...values, id: id }),
             }
         );
-        // await fetching.json();
         if (fetching.status === 204) {
             notification.success({
             message: `Success edit category for ID: ${id}`,

@@ -24,7 +24,6 @@ const CategoryList = () => {
 
     useEffect(() => {
     getCategoryList();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const removeCategory = async (id: string) => {
@@ -38,16 +37,8 @@ const CategoryList = () => {
             },
             }
         );
-      // const response = await fetching.json();
-
-      // if (response) {
-      //   setCategories((categories) =>
-      //     categories.filter((category) => category.id !== id)
-      //   );
-      // }
 
         if (fetching.ok) {
-            // Check if the request was successful (status code 204 No Content)
             setCategories((categories) =>
             categories.filter((category) => category.id !== id)
             );
@@ -98,7 +89,6 @@ const CategoryList = () => {
         },
     ];
 
-  // To handle Signout button
     const handleSignout = () => {
         sessionStorage.removeItem("token");
         window.location.replace("/");
